@@ -1,5 +1,5 @@
 # VinaLigGen
-Generate Bulk Ligplots by using docked complexes from Autodock vina
+Generate Bulk LigPlots by using docked complexes from AutoDock vina
 
 ## Steps to satisfy all dependencies
 
