@@ -36,3 +36,6 @@ The main purpose to download this is to convert your .ps ligplot file into an .p
 - Agrawal, Raghvendra, H. B. Punarva, Gagan O. Heda, Y. M. Vishesh, and Prashantha Karunakar. "VinaLigGen: a method to generate LigPlots and retrieval of hydrogen and hydrophobic interactions from protein-ligand complexes." Journal of Biomolecular Structure and Dynamics (2023): 1-4.
 - Wallace, Andrew C., Roman A. Laskowski, and Janet M. Thornton. "LIGPLOT: a program to generate schematic diagrams of protein-ligand interactions." Protein engineering, design and selection 8, no. 2 (1995): 127-134.
 - Dallakyan, Sargis, and Arthur J. Olson. "Small-molecule library screening by docking with PyRx." Chemical biology: methods and protocols (2015): 243-250.
+
+Watch the youtube video for detailed instruction to instal and set-up VinaLigGen:
+https://youtu.be/TOcCuLhVOq8 
