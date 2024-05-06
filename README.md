@@ -1,3 +1,6 @@
+Watch the youtube video for detailed instruction to instal and set-up VinaLigGen:
+https://youtu.be/TOcCuLhVOq8 
+
 # VinaLigGen
 Generate Bulk Ligplots by using docked complexes from Autodock vina
 
@@ -37,5 +40,4 @@ The main purpose to download this is to convert your .ps ligplot file into an .p
 - Wallace, Andrew C., Roman A. Laskowski, and Janet M. Thornton. "LIGPLOT: a program to generate schematic diagrams of protein-ligand interactions." Protein engineering, design and selection 8, no. 2 (1995): 127-134.
 - Dallakyan, Sargis, and Arthur J. Olson. "Small-molecule library screening by docking with PyRx." Chemical biology: methods and protocols (2015): 243-250.
 
-Watch the youtube video for detailed instruction to instal and set-up VinaLigGen:
-https://youtu.be/TOcCuLhVOq8 
+
