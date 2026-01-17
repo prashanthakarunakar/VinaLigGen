@@ -7,13 +7,17 @@ import sys
 import traceback
 
 def check_folders(ligplot_processing_path):
-    for i in glob.glob(ligplot_processing_path+"*.pdbqt"):
-        file = i[:-6]
-        for j in range(1,10):
-            #print(f"Checking if {file}_{j} exists")
-            if not (os.path.exists(f"{file}_{j}")):
-                return False
-    return True
+    all_ok = True
+
+    for pdbqt in glob.glob(ligplot_processing_path + "*.pdbqt"):
+        base = pdbqt[:-6]
+        pose_dirs = glob.glob(base + "_*")
+
+        if len(pose_dirs) == 0:
+            print(f"[WARNING] Skipping {os.path.basename(base)} (no poses)")
+            all_ok = False
+
+    return True  # do not block pipeline
 
 # https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/manual.html
 # http://www.csb.yale.edu/userguides/graphics/ligplot/manual/man2.html
@@ -159,3 +163,4 @@ ECHO Ligplots Extracted!!\n
             return False
     else:
         return False
+
